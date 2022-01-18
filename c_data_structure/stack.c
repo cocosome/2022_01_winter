@@ -19,9 +19,13 @@ int isfull(int arr)
 int pop(int arr, int top)/*input = arr, top | output = top*/
 {
 	printf("%d\n",arr[top]);
+
 	top = top - 1;
 	return top;
 }
+
+int pull(int arr, int top, int key)
+{
 
 
 int main(void)
